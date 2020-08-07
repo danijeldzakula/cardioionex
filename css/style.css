@@ -481,7 +481,7 @@ body {
 
 .header .product__individual_price .highlighted {
     display: block;
-    font-size: 45px
+    font-size: 34px
 }
 
 .header .product__standart_price {
@@ -1754,7 +1754,7 @@ body {
 
 .footer__product .product__individual_price .highlighted {
     display: block;
-    font-size: 50px;
+    font-size: 44px;
     color: #d43428
 }
 

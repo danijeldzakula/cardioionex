@@ -441,10 +441,18 @@ body {
     left: -5px;
     width: 260px;
     height: 594px;
-    background: url(../img/hiper.png) no-repeat;
+    background: url('../img/HiperDrops-web-packaging_(2).png') no-repeat;
     background-size: contain;
+    background-position: center top;
     z-index: 4;
     filter: drop-shadow(3px 3px 6px rgba(0,0,0,.25));
+}
+
+@media only screen and (min-width: 1100px) {
+    .header .product__image {
+        background-position: center center;
+        width: 300px;
+    }
 }
 
 .header .product__image-es {
@@ -727,10 +735,10 @@ body {
 .solution .product__image {
     position: absolute;
     top: -40px;
-    right: 60px;
-    width: 280px;
-    height: 320px;
-    background: url(../img/hiper.png) no-repeat;
+    right: 20px;
+    width: 300px;
+    height: 370px;
+    background: url('../img/HiperDrops-web-packaging_(2).png') no-repeat;
     background-size: contain;
     background-position: center; 
     filter: drop-shadow(3px 3px 6px rgba(0,0,0,.25));
@@ -1666,7 +1674,7 @@ body {
     top: 55px;
     width: 330px;
     height: 369px;
-    background: url(../img/hiper.png) no-repeat;
+    background: url('../img/HiperDrops-web-packaging_(2).png') no-repeat;
     background-size: contain;
     background-position: center;
     filter: drop-shadow(3px 3px 6px rgba(0,0,0,.25));
@@ -1729,11 +1737,11 @@ body {
     position: absolute;
     top: 0;
     left: -5px;
-    width: 270px;
+    width: 100%;
     height: 614px;
-    background: url(../img/hiper.png) top right no-repeat;
-    background-position: center;
-    background-size: 200px;
+    background: url('../img/HiperDrops-web-packaging_(2).png') top right no-repeat;
+    background-position: center left;
+    background-size: 300px;
     z-index: 5;
     filter: drop-shadow(3px 3px 6px rgba(0,0,0,.25));
 }
@@ -1796,7 +1804,7 @@ body {
 
 @media only screen and (min-width: 640px) {
     .footer__product .product__image {
-        background-size: 240px;
+        background-size: 330px;
         top: -60px!important;
     }
 }
@@ -1978,17 +1986,17 @@ body {
     .header .product__image {
         top: -30px;
         left: 50%;
-        width: 233px;
-        margin-left: -120.5px;
+        width: 290px;
+        margin-left: -120px;
         filter: drop-shadow(3px 3px 6px rgba(0,0,0,.25))
     }
     .header .product__individual_price {
-        right: 190px;
+        right: 140px;
         z-index: 4
     }
     .header .product__standart_price {
         right: auto;
-        left: 210px;
+        left: 150px;
         bottom: auto;
         top: -34px
     }
@@ -2161,8 +2169,8 @@ body {
     .header .product__image {
         top: -30px;
         left: 75%;
-        width: 213px;
-        margin-left: -120.5px;
+        width: 350px;
+        margin-left: -200px;
     }
 
     .recommendation .doctor__text {
@@ -2292,8 +2300,8 @@ body {
     .header .product__image {
         top: 150px;
         left: 50%;
-        width: 173px;
-        margin-left: -80.5px;
+        width: 283px;
+        margin-left: -130.5px;
     }
 }
 
@@ -2342,4 +2350,14 @@ html {
         top: 170px;
         right: 60px;
     }
+}
+
+.footer .product__image {
+    background-position: center;
+}
+
+@media only screen and (min-width: 1100px) {
+    .footer .product__image {
+        background-position: center left;
+    }    
 }
